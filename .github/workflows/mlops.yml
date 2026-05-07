@@ -51,6 +51,14 @@ jobs:
           echo '${{ secrets.CLOUD_CREDENTIALS }}' > /tmp/sa-key.json
           export GOOGLE_APPLICATION_CREDENTIALS=/tmp/sa-key.json
 
+      - name: Auth list check
+        run: |
+          gcloud auth list
+          
+      - name: Gsutil list check
+        run: |
+          gsutil ls
+          
       - name: Pull data with DVC
         run: |
           export GOOGLE_APPLICATION_CREDENTIALS=/tmp/sa-key.json
