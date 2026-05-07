@@ -49,12 +49,18 @@ jobs:
       - name: Authenticate to Cloud Storage
         run: |
           echo '${{ secrets.CLOUD_CREDENTIALS }}' > /tmp/sa-key.json
-          export GOOGLE_APPLICATION_CREDENTIALS=/tmp/sa-key.json
+          ls -la /tmp/sa-key.json
+          cat /tmp/sa-key.json | head -10
+
+      - name: Configure DVC credentials
+        run: |
+          dvc remote modify myremote credentialpath /tmp/sa-key.json
+          dvc remote list -v
 
       - name: Pull data with DVC
         env:
           GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa-key.json
-        run: dvc pull
+        run: dvc pull -v
 
       - name: Train model
         run: python src/train.py
