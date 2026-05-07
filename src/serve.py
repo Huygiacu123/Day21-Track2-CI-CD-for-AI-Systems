@@ -51,7 +51,7 @@ def health():
     Tra ve: {"status": "ok"}
     """
     # TODO 5: Tra ve dict {"status": "ok"}
-    pass  # xoa dong nay sau khi hoan thanh
+    return {"status": "ok"}
 
 
 @app.post("/predict")
@@ -69,15 +69,18 @@ def predict(req: PredictRequest):
     """
     # TODO 6: Kiem tra so luong dac trung.
     # Neu len(req.features) != 12, raise HTTPException(status_code=400, ...)
+    if len(req.features) != 12:
+        raise HTTPException(status_code=400, detail="Expected 12 features (wine quality)")
 
     # TODO 7: Goi model.predict([req.features]) de lay ket qua du doan.
     # pred = model.predict(...)
+    pred = model.predict([req.features])[0]
 
     # TODO 8: Tra ve dict chua "prediction" (int) va "label" (string).
     # Nhan tuong ung: 0 -> "thap", 1 -> "trung_binh", 2 -> "cao"
     # return {"prediction": ..., "label": ...}
-
-    pass  # xoa dong nay sau khi hoan thanh tat ca TODO ben tren
+    labels = {0: "thap", 1: "trung_binh", 2: "cao"}
+    return {"prediction": int(pred), "label": labels[int(pred)]}
 
 
 if __name__ == "__main__":

@@ -1,0 +1,15 @@
+artifact_uri: file:///F:/hoc/vin/Day21-Track2-CI-CD-for-AI-Systems/mlruns/0/5ebc909fcb484a9c954a497e1311d6ef/artifacts
+end_time: 1778172388215
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5ebc909fcb484a9c954a497e1311d6ef
+run_name: whimsical-squid-783
+run_uuid: 5ebc909fcb484a9c954a497e1311d6ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778172388183
+status: 4
+tags: []
+user_id: Huy

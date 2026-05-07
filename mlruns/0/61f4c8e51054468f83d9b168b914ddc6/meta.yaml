@@ -1,0 +1,15 @@
+artifact_uri: file:///F:/hoc/vin/Day21-Track2-CI-CD-for-AI-Systems/mlruns/0/61f4c8e51054468f83d9b168b914ddc6/artifacts
+end_time: 1778172389534
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 61f4c8e51054468f83d9b168b914ddc6
+run_name: likeable-whale-41
+run_uuid: 61f4c8e51054468f83d9b168b914ddc6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778172389496
+status: 4
+tags: []
+user_id: Huy

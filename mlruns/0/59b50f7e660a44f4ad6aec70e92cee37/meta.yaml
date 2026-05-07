@@ -1,0 +1,15 @@
+artifact_uri: file:///F:/hoc/vin/Day21-Track2-CI-CD-for-AI-Systems/mlruns/0/59b50f7e660a44f4ad6aec70e92cee37/artifacts
+end_time: 1778172452177
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 59b50f7e660a44f4ad6aec70e92cee37
+run_name: whimsical-ram-310
+run_uuid: 59b50f7e660a44f4ad6aec70e92cee37
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778172450140
+status: 3
+tags: []
+user_id: Huy

@@ -1,0 +1,15 @@
+artifact_uri: file:///F:/hoc/vin/Day21-Track2-CI-CD-for-AI-Systems/mlruns/0/23d750498d3240699c604fc55c0f4b77/artifacts
+end_time: 1778172389649
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 23d750498d3240699c604fc55c0f4b77
+run_name: worried-perch-157
+run_uuid: 23d750498d3240699c604fc55c0f4b77
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778172389616
+status: 4
+tags: []
+user_id: Huy

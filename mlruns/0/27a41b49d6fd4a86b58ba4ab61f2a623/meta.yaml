@@ -1,0 +1,15 @@
+artifact_uri: file:///F:/hoc/vin/Day21-Track2-CI-CD-for-AI-Systems/mlruns/0/27a41b49d6fd4a86b58ba4ab61f2a623/artifacts
+end_time: 1778133561244
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 27a41b49d6fd4a86b58ba4ab61f2a623
+run_name: victorious-duck-237
+run_uuid: 27a41b49d6fd4a86b58ba4ab61f2a623
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778133557596
+status: 3
+tags: []
+user_id: Huy

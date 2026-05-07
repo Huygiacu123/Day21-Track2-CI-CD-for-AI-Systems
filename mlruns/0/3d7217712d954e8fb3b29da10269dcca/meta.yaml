@@ -1,0 +1,15 @@
+artifact_uri: file:///F:/hoc/vin/Day21-Track2-CI-CD-for-AI-Systems/mlruns/0/3d7217712d954e8fb3b29da10269dcca/artifacts
+end_time: 1778133511392
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3d7217712d954e8fb3b29da10269dcca
+run_name: smiling-lynx-763
+run_uuid: 3d7217712d954e8fb3b29da10269dcca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778133508466
+status: 3
+tags: []
+user_id: Huy
