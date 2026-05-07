@@ -52,6 +52,8 @@ jobs:
           export GOOGLE_APPLICATION_CREDENTIALS=/tmp/sa-key.json
 
       - name: Pull data with DVC
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa-key.json
         run: dvc pull
 
       - name: Train model
